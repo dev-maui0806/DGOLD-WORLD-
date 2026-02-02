@@ -349,7 +349,7 @@ export default function TokenomicsSection() {
                 <div
                   style={{
                     display: 'flex',
-                    flexDirection: 'column',
+                    flexDirection: 'row',
                     gap: '10px',
                     alignItems: 'stretch',
                   }}
