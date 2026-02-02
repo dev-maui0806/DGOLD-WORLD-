@@ -5,17 +5,25 @@ export default function RoadmapSection() {
 
   const phases = [
     {
-      title: 'PHASE 1: IGNITE',
-      items: ['Launch on pump.fun', 'Meme campaigns', 'Community formation'],
+      title: 'MONTH 1',
+      items: ['Official DGOLD launch on Solana DEX', 'Liquidity added', 'Staking platform goes live',
+        'Marketing partnerships already secured with major crypto influencers on X', 
+        'Community expansion across Telegram and Discord'
+      ],
     },
     {
-      title: 'PHASE 2: StAMPEDE',
-      items: ['Trend on Dexscreener', '1000+ Holders', 'CEX Listings'],
+      title: 'MONTHS 1–3',
+      items: ['Governance features introduced', 'Strategic partnerships within the Solana ecosystem', 
+        'Expanded staking and reward mechanisms', 'Continued marketing and exposure'],
     },
     {
-      title: 'PHASE 3: ASCENSION',
-      items: ['God Candle', 'Tier 1 Exchange', 'Year of the Fire Horse Takeover'],
+      title: 'MONTHS 3–6',
+      items: ['Ecosystem expansion including NFTs and integrations', 'Mass adoption campaigns', 'Exploration of cross-chain opportunities'],
     },
+    {
+      title: 'MONTHS 6-12',
+      items:['Large-scale partnerships', 'Full ecosystem maturity', 'Long-term positioning as a leading Solana asset']
+    }
   ];
 
   return (
